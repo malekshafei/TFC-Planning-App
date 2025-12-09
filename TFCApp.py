@@ -8,6 +8,8 @@ import numpy as np
 from datetime import datetime, date
 import uuid
 from PIL import Image, ImageOps
+import matplotlib.pyplot as plt
+
 import matplotlib.font_manager as fm
 
 
@@ -16,7 +18,6 @@ import os
 import io
 
 
-import matplotlib.pyplot as plt
 
 regular_font_path = 'Montserrat-Regular.ttf'
 bold_font_path = 'Montserrat-Bold.ttf'
